@@ -31,23 +31,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'awesome_print'
-  gem 'ruby_gntp'
-  gem 'byebug'
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'fabrication'
-  gem 'guard-bundler'
-  gem 'guard-rspec'
-  # gem 'quiet_assets'
-  gem 'letter_opener'
-  gem 'database_cleaner'
   gem 'selenium-webdriver'
   gem 'letter_opener_web'
-  gem 'pry-rails'
   gem 'poltergeist'
-  gem 'brakeman'
-  gem 'timecop'
-  gem 'fuubar'
 end
 
